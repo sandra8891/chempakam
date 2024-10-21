@@ -1,11 +1,47 @@
-.nav{
-    margin: 10px;
+*{
+    margin:0px
 }
-
-
+.main{
+    background-color: rgb(243, 196, 135);
+    padding-left: 80px;
+}
 .nav{
+    
     background-color:rgb(26, 26, 26);
     display:flex;
     color: white;
     padding:10px;
+    justify-content: space-between;
+    
 }
+.left{
+    display: flex;
+    
+}
+.left div{
+    margin: 0 10px;
+}
+.bg1{
+    background: url(image/8.jpg) no-repeat;background-size: cover;
+    padding: 200px;
+    color:white;
+    font-size: 20px;
+    padding-left: 600px;
+    
+    }
+    .main{
+        background-color:white;
+        display:grid;
+        grid-template-columns: 3fr 3fr 3fr;
+        grid-gap:10px;
+    }
+    .main1{
+        margin-top: 10px;
+        height:400px ;
+        width:600px;
+        padding:10px;
+    }
+    .head{
+        text-align: center;
+        padding: 1%;
+    }
