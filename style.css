@@ -1,7 +1,7 @@
 *{
     margin:0px
 }
-.main{
+.topnav{
     background-color: rgb(243, 196, 135);
     padding-left: 80px;
 }
@@ -10,24 +10,38 @@
     background-color:rgb(26, 26, 26);
     display:flex;
     color: white;
-    padding:10px;
+    padding:10px 90px;
     justify-content: space-between;
-    
-}
+    align-items: center;
+    }
 .left{
     display: flex;
+    align-items: center;
     
 }
 .left div{
     margin: 0 10px;
+    
+}
+.right{
+    display: flex;
+    align-items: center;
 }
 .bg1{
     background: url(image/8.jpg) no-repeat;background-size: cover;
     padding: 200px;
     color:white;
-    font-size: 20px;
+    font-size: 40px;
     padding-left: 600px;
+    position: relative;
     
+    }
+    .bgbutton button{
+        padding: 14px 43px;
+        color:gray;
+        font-size: 14px;
+        font-weight: 600px;
+
     }
     .main{
         background-color:white;
