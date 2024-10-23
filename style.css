@@ -74,4 +74,39 @@
    margin-left: 250px;
 
 }
+.besthead{
+    text-align: center;
+    margin-top: 6%;
+    color: rgb(122, 120, 120);
+}
+.best{
+    display: flex;
+   /* margin-left: 10%;
+    margin-right: 10%;*/
+    /*margin-top: 6%;*/
+    flex-wrap: wrap;
+    padding:90px;
+    height: 100vh;
+}
+.best1{
+    width:20%;
+    height:70%;
+    margin: 8px 20px;
+    padding:5px;
 
+}
+.bestimg{
+    height:60%;
+    width:100%;
+
+}
+.bestimg img{
+    width:100%;
+    object-fit: cover;
+    height: 100%;
+
+}
+.bestcontent{
+    height:40%;
+    width: 100%;
+}
