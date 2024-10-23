@@ -17,22 +17,34 @@
 .left{
     display: flex;
     align-items: center;
-    
+    justify-content: center;
+    margin-top: 20px;
+    margin-right: 200px;
+}
+.logo{
+    margin-left: 200px;
+
 }
 .left div{
-    margin: 0 10px;
+    margin: 0 20px;
     
 }
 .right{
     display: flex;
     align-items: center;
+    margin-top: 20px;
+    margin-right:200px;
+}
+.right div{
+    margin:0 15px;
 }
 .bg1{
-    background: url(image/8.jpg) no-repeat;background-size: cover;
+    background: url(image/9.jpg) no-repeat;background-size: cover;
     padding: 200px;
     color:white;
     font-size: 40px;
-    padding-left: 600px;
+    padding-left: 200px;
+    padding-top: 100px;
     position: relative;
     
     }
@@ -41,21 +53,25 @@
         color:gray;
         font-size: 14px;
         font-weight: 600px;
+        border:none;
 
     }
-    .main{
-        background-color:white;
-        display:grid;
-        grid-template-columns: 3fr 3fr 3fr;
-        grid-gap:10px;
+    .cirlce{
+        display:flex;
+        justify-content: space-between;
+        
     }
-    .main1{
-        margin-top: 10px;
-        height:400px ;
-        width:600px;
-        padding:10px;
-    }
-    .head{
-        text-align: center;
-        padding: 1%;
-    }
+    .ci{
+        width:180px;
+        height:180px;
+        border-radius: 360px; margin: 7px;   
+
+}
+.circleimg{
+    display: flex;
+   /* justify-content: space-between; */
+   margin-top: 50px;
+   margin-left: 250px;
+
+}
+
