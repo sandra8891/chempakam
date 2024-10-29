@@ -217,11 +217,12 @@
         width: 20px;
         height: 20px;
         margin-left:0px;
+    
     }
     .nav{
         height: 10vh;
         width:100%;
-        padding:5 30px;
+        padding:10px 70px;
     }
     .logo{
         margin-left: 20px;
